@@ -1,0 +1,7 @@
+[connection]
+port = 9142
+factory = cqlshlib.ssl.ssl_transport_factory
+
+[ssl]
+validate = true
+certfile =  /root/.cassandra/AmazonRootCA1.pem
