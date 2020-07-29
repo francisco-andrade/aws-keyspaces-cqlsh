@@ -1,7 +1,7 @@
 # B2W-Freight-Extractor
 
 FROM cassandra:3.11.7
-MAINTAINER Francisco frjandrade15@gmail.com
+MAINTAINER Francisco fjandrade15@gmail.com
 
 RUN mkdir /root/.cassandra
 
